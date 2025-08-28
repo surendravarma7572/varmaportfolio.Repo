@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Surendra Varma | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+header {
+  background: #222;
+  color: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.hero {
+  background: linear-gradient(90deg,#667eea,#61213a);
+  color: #fff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 1rem;
+  color: #53439b;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+}
+.skills-list li {
+  background: #e0dddd;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.project-card {
+  background: #dad4d4;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(27, 16, 16, 0.07);
+  padding: 1rem;
+  flex: 1 1 250px;
+  min-width: 250px;
+}
+.project-card h3 {
+  margin-bottom: 0.5rem;
+  color: #667eea;
+}
+.project-card a {
+  color: #764ba2;
+  font-weight: 500;
+  text-decoration: none;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.projects-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.project-card a {
+  color: #764ba2;
+  font-weight: 500;
+  text-decoration: none;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+#resume ul {
+  margin-top: 1rem;
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 400px;
+}
+label {
+  font-weight: 500;
+}
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+button {
+  padding: 0.7rem;
+  background: #350664;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #667eea;
+}
+.social {
+  margin-top: 1rem;
+}
+.social a {
+  color: #764ba2;
+  text-decoration: none;
+}
+.social a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+@media (max-width: 700px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #222;
+    position: absolute;
+    right: 1rem;
+    top: 3.5rem;
+    display: none;
+  }
+  nav.active ul {
+    display: flex;
+  }
+  .projects-grid {
+    flex-direction: column;
+  }
+  section {
+    padding: 1rem;
+  }
+}</style>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">SURENDRA VARMA</div>
+      <ul>
+         <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+         <li><a href="#certifications">Certificate</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hi, I'm Surendra Varma</h1>
+    <p>Fresher | Web Developer | Tech Enthusiast</p>
+  </section>
+
+  <section id="Education">
+    <h2><u>Education</u></h2>
+    <div class="project-card">
+      <div class="project-card">
+        <h3>Aditya Degree College</h3>
+        <p>Bsc computers   (2023-2026)</p>
+        <a href="#" target="_blank">View Result</a>
+      </div>
+      <div class="project-card">
+        <h3>P.r.Govt junior(boys) College</h3>
+        <p>Intermediate(MPC)     (2021-2023)</p>
+        <a href="INTERMEDIATE.pdf" target="_blank">View Result</a>
+      </div>
+      <div class="project-card">
+        <h3>Sri Surya (E.M) School</h3>
+        <p>SSC    (2020-2021)</p>
+        <a href="SSC.pdf" target="_blank">View Result</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2><u>Skills</u></h2>
+    <ul class="skills-list">
+      <li>Basic c</li>
+      <li>Python</li>
+      <li>Web development</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+    <section id="Certifications">
+    <h2><u>Certificates</u></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3><u>Cisco Networking Academy :</u></h3>
+        <p>1.Programming essentails in c</p>
+        <a href="PROGRAMING ESSENTIALS IN C.pdf" target="_blank">View Certificate</a>
+        <p>2.Python essentials - 1</p>
+        <a href="PYTHONESSENTIALS-1.pdf" target="_blank">View Certificate</a>
+        <p>3.Python essentials - 2</p>
+        <a href="PYTHONESSENTIALS-2.pdf" target="_blank">View Certificate</a>
+        <p>4.Networking Basics</p>
+        <a href="NETWORKING BASICS.pdf" target="_blank">View Certificate</a>
+      </div>
+      <div class="project-card">
+        <h3><u>Pearson Mepro :</u></h3>
+        <p>4.English</p>
+        <a href="ME PRO.pdf" target="_blank">View Certificate</a>
+        <br><h3><u>Infosys Springboard :</u></h3>
+        <p>5.Basic of python</p>
+        <a href="BASIC OF PYTHON.pdf" target="_blank">View Certificate</a>
+        <p>6.python for datascience</p>
+        <a href="PYTHON FOR DATA SCIENCE.pdf" target="_blank">View Certificate</a>
+      </div>
+      <div class="project-card">
+        <h3><u>IT Specalist :</u></h3>
+        <p>7.HTML Application Development</p>
+        <a href="HTML APPLICATION DEVELOPMENT.pdf" target="_blank">View Certificate</a>
+        <h3><u>Skill India :</u></h3>
+        <p>8.IoT Network Specalist</p>
+        <a href="IOT-Network specialist.pdf" target="_blank">View Certificate</a>
+         <h3><u>Oracle :</u></h3>
+        <p>9.OCI Cloud Gen Ai</p>
+        <a href="ORACLE oci gen ai professionals.pdf" target="_blank">View Certificate</a>
+      </div>
+    </div>
+  </section>
+
+   <section id="Internship:MERN FULL STACK DEVELOPMENT">
+    <h2><u>Internship</u></h2>
+    <div class="project-card">
+      <div class="project-card">
+        <h2>MERN FULL STACK DEVELOPMENT :</h2>
+        <p>ADHOC Network,
+Duration : 2months (April-june,2025)<br>
+Demonstrated exceptional dedication and commitment to mastering in
+MERN FULL STACK DEVELOPMENT internship actively engaging in
+hands-on projects and practical learning for (Dynamic) and (scalable
+applications).</p>
+        <a href="INTERNSHIP.pdf"_blank">View Certificate</a>
+      </div>
+    </section>
+
+  <section id="projects">
+    <h2><u>Projects</u></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h2>Project 1: Portfolio Website</h2>
+        <p>A responsive portfolio to showcase my work and skills.</p>
+        <a href="index.html" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h2>Project 2: Unique gallery</h2>
+        <p>"A collection of creatively designed cards with a vintage aesthetic".</p>
+        <a href="SURENDRAALBUM.html" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2><u>Resume</u></h2>
+    <p>
+      <a href="RESUME-2.pdf" target="_blank">Download Resume (PDF)</a>
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2><u>Contact</u></h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social">
+      <a href="mailto:surendravarma780@gmail.com">Email</a> |
+      <a href="https://github.com/surendravarma7572" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/surendravarma-sagiraju-1005b4327" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Surendra Varma. All rights reserved.</p>
+  </footer>
+</body>
+</html>
